@@ -1,8 +1,6 @@
-# Branching
+const { Router } = require('express');
+const router = Router();
 
-## Descripción
-
-Este proyecto tiene como objetivo enseñarles a utilizar de manera sencilla el branching, los code reviews y las pull request. 
-
-## Nombre de Arturo
-Arturo Monterroso - 201608006
+module.exports = (app) => {
+    app.use('/', router);
+};
